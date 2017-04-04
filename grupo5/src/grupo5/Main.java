@@ -19,12 +19,7 @@ public class Main {
 			System.out.println("hola- adiós");
 
 		//Cambio Alvaro
-		System.out.println("hola- adiï¿½s");
-		
-		//Cambio Emilio
-		
-		System.out.println("emilio");
-		//Cambio Alvaro
+
 	}
 
 }
