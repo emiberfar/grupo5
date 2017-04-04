@@ -6,9 +6,7 @@ public class Main {
 
 		//Cabmio Blanca
 		System.out.println("hola");
-		
-<<<<<<< HEAD
-		
+				
 		// Blanca
 	
 	//Cambio Alvaro
