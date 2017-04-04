@@ -6,7 +6,11 @@ public class Main {
 
 		//Cabmio Blanca
 		System.out.println("hola");
+<<<<<<< HEAD
 		
+=======
+				
+>>>>>>> refs/remotes/origin/master
 		// Blanca
 	
 		//Cambio Alvaro
@@ -25,12 +29,16 @@ public class Main {
 		//Q
 
 		//Cambio Alvaro
+<<<<<<< HEAD
 		System.out.println("hola- adi�s");
 		
 		//Cambio Emilio
 		
 		System.out.println("emilio");
-		// ::::::
+		// ::::
+=======
+
+>>>>>>> refs/remotes/origin/master
 	}
 
 }
