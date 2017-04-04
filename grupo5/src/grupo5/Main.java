@@ -7,34 +7,30 @@ public class Main {
 		//Cabmio Blanca
 		System.out.println("hola");
 		
-<<<<<<< HEAD
-		
 		// Blanca
-<<<<<<< HEAD
->>>>>>> branch 'master' of https://github.com/emiberfar/grupo5
 	
-	//Cambio Alvaro
+		//Cambio Alvaro
 			System.out.println("hola- nos vemos");
-=======
-=======
+
 		//Cambio Alvaro
 		System.out.println("adiÃ³s");
->>>>>>> branch 'master' of https://github.com/emiberfar/grupo5
 
-<<<<<<< HEAD
-	//Cambio Alvaro
-			System.out.println("hola- adiós");
->>>>>>> refs/remotes/origin/master
-=======
+		//Cambio Alvaro
+			System.out.println("hola- adiï¿½s");
+			
 		//Cambio Alvaro
 		System.out.println("hola- adiï¿½s");
-<<<<<<< HEAD
+
 
 		//Q
-=======
 
->>>>>>> branch 'master' of https://github.com/emiberfar/grupo5
->>>>>>> refs/remotes/origin/master
+		//Cambio Alvaro
+		System.out.println("hola- adiï¿½s");
+		
+		//Cambio Emilio
+		
+		System.out.println("emilio");
+
 	}
 
 }
