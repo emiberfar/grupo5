@@ -6,18 +6,18 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		// Juego adivinar número
+		// Juego adivinar numero
 		
 		Scanner input = new Scanner(System.in);
 
 		int numeroDado, random;
-
 		random = (int) (Math.random() * 100) + 1;
-
-		System.out.println("¡Bienvenido! Este es el juego de números aleatorios");
+		
+		System.out.println("¡Bienvenido! Este es el juego de números aleatorios.");
 		System.out.println("Consiste en adivinar el número, la máquina te dirá si el número que has introducido es mayor o menor.");
 		
-		numeroDado = input.nextInt();
+		System.out.println(" ");
+		System.out.println("---------------------");
 		System.out.println("Introduce un número: ");
 		numeroDado = input.nextInt();
 
@@ -48,7 +48,7 @@ public class Main {
 		}
 		
 		
-		// Fin juego adviniar número > Blanca
+		// Fin juego adviniar numero > Blanca
 
 	}
 
