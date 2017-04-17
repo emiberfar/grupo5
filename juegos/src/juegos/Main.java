@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+		
 		// Juego adivinar número
+		
 		Scanner input = new Scanner(System.in);
 
 		int numeroDado, random;
@@ -44,7 +46,8 @@ public class Main {
 				}
 			}
 		}
-		// FIN adviniar número
+		
+		// Fin juego adviniar número > Blanca
 
 	}
 
