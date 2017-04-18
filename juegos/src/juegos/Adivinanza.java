@@ -4,7 +4,8 @@ package juegos;
 	import java.util.Scanner;
 	public class Adivinanza {
 
-		public static void main(String[] args) {
+		public void RealizarAdivinanza(){
+			
 			Random random = new Random();
 			int numeroAleatorio;
 			numeroAleatorio= random.nextInt(1000) + 1;
