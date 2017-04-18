@@ -6,7 +6,6 @@ public class numeroaleatorio {
 
 	public static void main(String[] args) {
 		
-		
 		// Juego adivinar numero
 		
 		Scanner input = new Scanner(System.in);
