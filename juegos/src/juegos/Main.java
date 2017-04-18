@@ -2,10 +2,7 @@ package juegos;
 
 import java.util.Scanner;
 
-public class Main {
-<<<<<<< HEAD
-				
-=======
+public class numeroaleatorio {
 
 	public static void main(String[] args) {
 		
@@ -52,12 +49,6 @@ public class Main {
 		
 		// Fin juego adviniar numero > Blanca
 
-		// Juego piedra, papel o tijeras
-		
-		
-		
-		// Fin juego piedra, papel o tijeras >
 	}
->>>>>>> branch 'master' of https://github.com/emiberfar/grupo5
 
 }
