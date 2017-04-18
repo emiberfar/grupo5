@@ -3,6 +3,9 @@ package juegos;
 import java.util.Scanner;
 
 public class Main {
+<<<<<<< HEAD
+				
+=======
 
 	public static void main(String[] args) {
 		
@@ -51,5 +54,6 @@ public class Main {
 		// Fin juego adviniar numero > Blanca
 
 	}
+>>>>>>> branch 'master' of https://github.com/emiberfar/grupo5
 
 }
