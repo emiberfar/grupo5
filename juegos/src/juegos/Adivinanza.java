@@ -1,4 +1,4 @@
-package juegos[grupo5 master];
+package juegos;
 
 	import java.util.Random;
 	import java.util.Scanner;
