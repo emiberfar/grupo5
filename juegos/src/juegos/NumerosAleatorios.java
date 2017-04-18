@@ -7,7 +7,6 @@ public class numerosaleatorios {
 
 	public static void jugar() {
 
-		
 		// Juego adivinar numero.
 
 		Scanner input = new Scanner(System.in);
