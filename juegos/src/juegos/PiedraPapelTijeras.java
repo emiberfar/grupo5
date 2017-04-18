@@ -12,7 +12,7 @@ public class PiedraPapelTijeras {
 	    private int cantidadDeJuegos;
 	 
 	    private enum Move {
-	        ROCA, PAPEL, TIJERAS;
+	        PIEDRA, PAPEL, TIJERAS;
 	 
 	        /**
 	         * Compara esta jugada con otra para determinar si es un empate, un triunfo o
@@ -29,10 +29,10 @@ public class PiedraPapelTijeras {
 	                return 0;
 	 
 	            switch (this) {
-	            case ROCA:
+	            case PIEDRA:
 	                return (otherMove == TIJERAS ? 1 : -1);
 	            case PAPEL:
-	                return (otherMove == ROCA ? 1 : -1);
+	                return (otherMove == PIEDRA ? 1 : -1);
 	            case TIJERAS:
 	                return (otherMove == PAPEL ? 1 : -1);
 	            }
@@ -61,7 +61,7 @@ public class PiedraPapelTijeras {
 	                // Usuario ha ingresado un dato válido
 	                switch (firstLetter) {
 	                case 'R':
-	                    return Move.ROCA;
+	                    return Move.PIEDRA;
 	                case 'P':
 	                    return Move.PAPEL;
 	                case 'T':
