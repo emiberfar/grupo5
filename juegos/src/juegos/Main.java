@@ -14,7 +14,7 @@ public class Main {
 		random = (int) (Math.random() * 100) + 1;
 		
 		System.out.println("¡Bienvenido! Este es el juego de números aleatorios.");
-		System.out.println("Consiste en adivinar el número, la máquina te dirá si el número que has introducido es mayor o menor.");
+		System.out.println("Consiste en adivinar el número, de 1 al 100. La máquina te dirá si el número que has introducido es mayor o menor.");
 		
 		System.out.println(" ");
 		System.out.println("---------------------");
