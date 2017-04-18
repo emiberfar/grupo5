@@ -47,9 +47,13 @@ public class Main {
 			}
 		}
 		
-		
 		// Fin juego adviniar numero > Blanca
 
+		// Juego piedra, papel o tijeras
+		
+		
+		
+		// Fin juego piedra, papel o tijeras >
 	}
 
 }
