@@ -2,6 +2,7 @@ package juegos;
 
 import java.util.Scanner;
 
+
 public class numerosaleatorios {
 
 	public static void jugar() {
