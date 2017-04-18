@@ -12,7 +12,7 @@ package juegos;
 			//System.out.println("Numero aleatorio: " + numeroAleatorio);
 			int numIntentos=1;
 			int numUsuario;
-			Scanner scanner= new Scanner (System.in); //escaner asociado al tecaldo
+			Scanner scanner= new Scanner (System.in); //escaner asociado al teclado
 
 			while (true){
 				System.out.printf("Introduce un numero (Intento %d): " ,numIntentos );
