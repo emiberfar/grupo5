@@ -6,8 +6,7 @@ public class NumerosAleatorios {
 
 	public static void jugar() {
 
-		//<h2> Juego adivinar numero </h2>
-		/**
+		/**<h2> Juego adivinar numero </h2>
 		 * @param Scanner
 		 * Esta función hace <b>escanear el número</b> introducido por el usuario
 		 */
@@ -52,7 +51,7 @@ public class NumerosAleatorios {
 		 */
 		for (int i = 0; i < 100; i++) {
 			{
-				/*
+				/**
 				 * @param if, syso
 				 * En el caso que <b>acierte el número random</b>, dará este mensaje
 				 */
@@ -62,7 +61,7 @@ public class NumerosAleatorios {
 					System.out.println("Lo has encontrado en " + i + " intentos.");
 					break;
 					
-					/*
+					/**
 					 * @param else
 					 * Indica que el <b>número random es mayor</b>
 					 */
@@ -74,7 +73,7 @@ public class NumerosAleatorios {
 						numeroDado = input.nextInt();
 						i++;
 						
-						/*
+						/**
 						 * @param else
 						 * Indica que el <b>número random es menor</b>
 						 */
@@ -92,7 +91,7 @@ public class NumerosAleatorios {
 		/** Fin juego adviniar numero, finaliza el programa
 		 * 
 		 * @author Blanca
-		 * @version 1.07
+		 * @version 1.08
 		 * @since 1.00
 		 * @throws SerletException
 		 * @throws IOException
