@@ -91,8 +91,8 @@ public class NumerosAleatorios {
 
 		/* Fin juego adviniar numero, finaliza el programa
 		 * 
-		 * @author @Blanca
-		 * @version 1.06
+		 * @author Blanca
+		 * @version 1.07
 		 * @since 1.00
 		 * @throws SerletException
 		 * @throws IOException
