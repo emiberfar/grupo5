@@ -2,10 +2,10 @@ package juegos;
 
 import java.util.Scanner;
 
-<<<<<<< HEAD
-=======
 public class Main {
+	/*
+	 * <h1>Documentación JavaDocs</h1>
+	 * <b>GRUPO 5 </b>
+	 */
 
-
->>>>>>> refs/remotes/origin/master
 }
