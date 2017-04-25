@@ -8,7 +8,7 @@ public class numerosaleatorios {
 	public static void jugar() {
 
 		/* <h2> Juego adivinar numero </h2>
-		 * Esta función escanea, o mejor dicho, registra el número que introduce el usuario
+		 * Esta función escanea, o mejor dicho, registra el número que introduce el usuario (en este caso, pide un número)
 		 */
 		Scanner input = new Scanner(System.in);
 
@@ -17,7 +17,7 @@ public class numerosaleatorios {
 		random = (int) (Math.random() * 100) + 1;
 
 		/* 
-		 * Mensaje de bienvenida, da la descripción del juego al usuario
+		 * Mensaje de bienvenida, da la <b>descripción del juego</b> al usuario
 		 */
 		System.out.println("¡Bienvenido! Este es el juego de números aleatorios.");
 		System.out.println("Consiste en adivinar el número, de 1 al 100. La máquina te dirá si el número que has introducido es mayor o menor.");
@@ -30,7 +30,7 @@ public class numerosaleatorios {
 		/*
 		 * <b>Si el número dado es igual al número random entonces ha acertado</b>
 		 * En el <b>caso contrario</b>, sigue intentándolo. El programa <b>dará pistas</b> si es mayor o número el número que 
-		 * ha introducido comparado con el numero random <b>(numeroDado == random)</b>
+		 * ha introducido, comparado con el numero random <b>(numeroDado == random)</b>
 		 */
 		for (int i = 0; i < 100; i++) {
 			{
