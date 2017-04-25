@@ -5,7 +5,7 @@ public class Verborrea {
 	/**
 	 * <p>Atributo con una lisa de String de verbos</p>
 	 * @author EBF10
-	 * 
+	 *  
 	 */
 	private	String verbos[] = {"acelerar", "acoplar", "adoptar","agregar","alimentar","analizar","articular","compatibilizar","complementar","conceptualizar","construir","contextualizar","cultivar","desarrollar","desplegar","diseñar","encapsula","engranar","ensamblar","escalar","estimular","evaluar","evolucionar","explotar","extender","facilitar","favorecer","generar","gestionar","habilitar","implementar","impulsar","incentivar","incubar","integrar","maximizar","nivelar","objetivizar","optimizar","orquestar","propulsar","racionalizar","reinventar","reconvertir","reformatear","sinergizar","sintetizar","sistematizar","transformar"};
     
