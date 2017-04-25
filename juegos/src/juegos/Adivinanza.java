@@ -6,6 +6,11 @@ package juegos;
 
 		public void RealizarAdivinanza(){
 			
+			/**
+			 * Escribe un número aleatorio, te preguntará que escribas un numero mayor o menor.
+			 * Has acertado
+			 * @author Alvaro
+			 */
 			Random random = new Random();
 			int numeroAleatorio;
 			numeroAleatorio= random.nextInt(1000) + 1;
