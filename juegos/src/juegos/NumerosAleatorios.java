@@ -7,14 +7,14 @@ public class NumerosAleatorios {
 	public static void jugar() {
 
 		//<h2> Juego adivinar numero </h2>
-		/*
+		/**
 		 * @param Scanner
 		 * Esta función hace <b>escanear el número</b> introducido por el usuario
 		 */
 
 		Scanner input = new Scanner(System.in);
 
-		/* 
+		/**
 		 * @param random
 		 * Crea un número random (aleatorio) que <b>no supere de 100</b>, para luego adivinarlo
 		 * Sumamos 1 para que de 100, en vez de 99 (ya que cuenta el 0 como número)
@@ -24,7 +24,7 @@ public class NumerosAleatorios {
 		int numeroDado, random;
 		random = (int) (Math.random() * 100) + 1;
 
-		/* 
+		/**
 		 * @param syso
 		 * Mensaje de bienvenida, da la <b>descripción del juego</b> al usuario
 		 */
@@ -35,13 +35,13 @@ public class NumerosAleatorios {
 		System.out.println("---------------------");
 		System.out.println("Introduce un número: ");
 		
-		/*
+		/**
 		 * @param input.nextInt();
 		 * Guarda el número (tipo int) que ha introducido el usuario
 		 */
 		numeroDado = input.nextInt();
 
-		/*
+		/**
 		 * @param for
 		 * 
 		 * Esta función hace un bucle para comprobar <b>si el número dado es igual al número random = entonces ha acertado</b>
@@ -89,7 +89,7 @@ public class NumerosAleatorios {
 			}
 		}
 
-		/* Fin juego adviniar numero, finaliza el programa
+		/** Fin juego adviniar numero, finaliza el programa
 		 * 
 		 * @author Blanca
 		 * @version 1.07
