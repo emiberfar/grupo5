@@ -2,7 +2,6 @@ package juegos;
 
 import java.util.Scanner;
 
-
 public class NumerosAleatorios {
 
 	public static void jugar() {
@@ -10,7 +9,7 @@ public class NumerosAleatorios {
 		//<h2> Juego adivinar numero </h2>
 		/*
 		 * @param Scanner
-		 * Esta función hace escanear el número introducido por el usuario, <b>scanner input</b>
+		 * Esta función hace <b>escanear el número</b> introducido por el usuario
 		 */
 
 		Scanner input = new Scanner(System.in);
@@ -35,23 +34,38 @@ public class NumerosAleatorios {
 		System.out.println(" ");
 		System.out.println("---------------------");
 		System.out.println("Introduce un número: ");
+		
+		/*
+		 * @param input.nextInt();
+		 * Guarda el número (tipo int) que ha introducido el usuario
+		 */
 		numeroDado = input.nextInt();
 
 		/*
 		 * @param for
 		 * 
-		 * Esta función hace un bucle para comprobar <b>Si el número dado es igual al número random entonces ha acertado</b>
-		 * En el <b>caso contrario</b>, sigue intentándolo. El programa <b>dará pistas</b> si es mayor o número el número que 
+		 * Esta función hace un bucle para comprobar <b>si el número dado es igual al número random = entonces ha acertado</b>
+		 * En el <b>caso contrario</b>, sigue intentándolo. 
+		 * 
+		 * El programa <b>dará pistas</b> si es mayor o número el número que 
 		 * ha introducido, comparado con el numero random <b>(numeroDado == random)</b>
 		 */
 		for (int i = 0; i < 100; i++) {
 			{
+				/*
+				 * @param if, syso
+				 * En el caso que <b>acierte el número random</b>, dará este mensaje
+				 */
 				if (numeroDado == random) {
-
+					
 					System.out.println("¡Felicidades, lo has adivinado! ");
 					System.out.println("Lo has encontrado en " + i + " intentos.");
 					break;
-
+					
+					/*
+					 * @param else
+					 * Indica que el <b>número random es mayor</b>
+					 */
 				} else {
 
 					if (numeroDado <= random) {
@@ -59,8 +73,13 @@ public class NumerosAleatorios {
 						System.out.println("Otro número: ");
 						numeroDado = input.nextInt();
 						i++;
-
+						
+						/*
+						 * @param else
+						 * Indica que el <b>número random es menor</b>
+						 */
 					} else {
+						
 						System.out.println("Es menor");
 						System.out.println("Otro número: ");
 						numeroDado = input.nextInt();
@@ -70,7 +89,8 @@ public class NumerosAleatorios {
 			}
 		}
 
-		/* Fin juego adviniar numero > Blanca
+		/* Fin juego adviniar numero, finaliza el programa
+		 * 
 		 * @author @Blanca
 		 * @version 1.06
 		 * @since 1.00
