@@ -3,7 +3,7 @@ package juegos;
 import java.util.Scanner;
 
 
-public class numerosaleatorios {
+public class NumerosAleatorios {
 
 	public static void jugar() {
 
