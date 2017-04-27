@@ -17,9 +17,9 @@ public class Main {
 		 * <p>genera un numero aleatorio mediante la clase Jugar (en NumerosAleatorios)</p>
 		 * @author Blanca
 		 */
-		Jugar jugarNumeroAleatorio = new jugar();
-		jugarNumeroAleatorio.jugar();
-		System.out.println(jugar.jugarNumeroAleatorio());
+		Jugar jugarNumeroAleatorio = new Jugar();
+		jugarNumeroAleatorio.Jugar();
+		System.out.println(Jugar.jugarNumeroAleatorio());
 		
 	}
 
