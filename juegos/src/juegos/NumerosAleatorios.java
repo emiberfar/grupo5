@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NumerosAleatorios {
 
-	public static void jugar() {
+	public static void Jugar() {
 
 		/**<h2> Juego adivinar numero </h2>
 		 * @param Scanner
@@ -99,7 +99,7 @@ public class NumerosAleatorios {
 		/** Fin juego adviniar numero, finaliza el programa
 		 * 
 		 * @author Blanca
-		 * @version 1.08
+		 * @version 1.09
 		 * @since 1.00
 		 * @throws SerletException
 		 * @throws IOException
