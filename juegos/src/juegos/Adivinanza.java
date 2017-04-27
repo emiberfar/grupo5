@@ -7,7 +7,7 @@ package juegos;
 		public void RealizarAdivinanza(){
 			
 			/**
-			 * Escribe un número aleatorio, te preguntará que escribas un numero mayor o menor.
+			 * Escribe un número aleatorio, .
 			 * Has acertado
 			 * @author Alvaro
 			 */
@@ -17,7 +17,13 @@ package juegos;
 			//System.out.println("Numero aleatorio: " + numeroAleatorio);
 			int numIntentos=1;
 			int numUsuario;
+			
+			/**
+			 * Escaner asociado al teclado.
+			 * @author Alvaro
+			 */
 			Scanner scanner= new Scanner (System.in); //escaner asociado al teclado
+			
 
 			while (true){
 				System.out.printf("Introduce un numero (Intento %d): " ,numIntentos );
@@ -25,6 +31,10 @@ package juegos;
 				System.out.println("Has escrito: "+ Linea);
 				numUsuario= Integer.parseInt(Linea);
 				
+				/**
+				 * Te dice que pruebes con un número mayor o  mener al que has metido.
+				 * @author Alvaro
+				 */
 			
 				if (numUsuario== numeroAleatorio)
 				break;
