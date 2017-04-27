@@ -9,6 +9,7 @@ public class NumerosAleatorios {
 		/**<h2> Juego adivinar numero </h2>
 		 * @param Scanner
 		 * Esta función hace <b>escanear el número</b> introducido por el usuario
+		 * @author Blanca
 		 */
 
 		Scanner input = new Scanner(System.in);
@@ -19,6 +20,7 @@ public class NumerosAleatorios {
 		 * Sumamos 1 para que de 100, en vez de 99 (ya que cuenta el 0 como número)
 		 * 
 		 * <b>numeroDado</b> = numero introducido por el usuario
+		 * @author Blanca
 		 */
 		int numeroDado, random;
 		random = (int) (Math.random() * 100) + 1;
@@ -26,6 +28,7 @@ public class NumerosAleatorios {
 		/**
 		 * @param syso
 		 * Mensaje de bienvenida, da la <b>descripción del juego</b> al usuario
+		 * @author Blanca
 		 */
 		System.out.println("¡Bienvenido! Este es el juego de números aleatorios.");
 		System.out.println("Consiste en adivinar el número, de 1 al 100. La máquina te dirá si el número que has introducido es mayor o menor.");
@@ -37,6 +40,7 @@ public class NumerosAleatorios {
 		/**
 		 * @param input.nextInt();
 		 * Guarda el número (tipo int) que ha introducido el usuario
+		 * @author Blanca
 		 */
 		numeroDado = input.nextInt();
 
@@ -48,12 +52,14 @@ public class NumerosAleatorios {
 		 * 
 		 * El programa <b>dará pistas</b> si es mayor o número el número que 
 		 * ha introducido, comparado con el numero random <b>(numeroDado == random)</b>
+		 * @author Blanca
 		 */
 		for (int i = 0; i < 100; i++) {
 			{
 				/**
 				 * @param if, syso
 				 * En el caso que <b>acierte el número random</b>, dará este mensaje
+				 * @author Blanca
 				 */
 				if (numeroDado == random) {
 					
@@ -64,6 +70,7 @@ public class NumerosAleatorios {
 					/**
 					 * @param else
 					 * Indica que el <b>número random es mayor</b>
+					 * @author Blanca
 					 */
 				} else {
 
@@ -76,6 +83,7 @@ public class NumerosAleatorios {
 						/**
 						 * @param else
 						 * Indica que el <b>número random es menor</b>
+						 * @author Blanca
 						 */
 					} else {
 						
@@ -98,5 +106,7 @@ public class NumerosAleatorios {
 		 */
 
 	}
+	
+	
 
 }
