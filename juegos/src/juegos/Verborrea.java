@@ -1,7 +1,7 @@
 package juegos;
 
 /**
- * 
+ * <p>Esta clase se encarga de crear una frase de forma aleatoria</p>
  * @author EBF10
  *
  */
