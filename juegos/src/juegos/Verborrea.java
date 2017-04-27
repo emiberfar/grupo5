@@ -1,5 +1,10 @@
 package juegos;
 
+/**
+ * 
+ * @author EBF10
+ *
+ */
 public class Verborrea {
 		
 	/**
