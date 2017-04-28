@@ -17,16 +17,15 @@ public class Main {
 		 * <p>genera un numero aleatorio mediante la clase Jugar (en NumerosAleatorios)</p>
 		 * @author Blanca
 		 */
-		Jugar jugarNumeroAleatorio = new Jugar();
+		NumerosAleatorios jugarNumeroAleatorio = new NumerosAleatorios();
 		jugarNumeroAleatorio.Jugar();
-		System.out.println(Jugar.jugarNumeroAleatorio());
 		
 		/**
 		 * <p>Genera numero aleatorio, para saber si has acertado</p>
 		 * @author Alvaro
 		 */
 		Adivinanza numero = new Adivinanza();
-		System.out.println(Adivinanza.numeroAleatorio());
+		numero.RealizarAdivinanza();
 	}
 
 }
