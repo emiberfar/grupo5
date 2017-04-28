@@ -21,6 +21,12 @@ public class Main {
 		jugarNumeroAleatorio.Jugar();
 		System.out.println(Jugar.jugarNumeroAleatorio());
 		
+		/**
+		 * <p>Genera numero aleatorio, para saber si has acertado</p>
+		 * @author Alvaro
+		 */
+		Adivinanza numero = new Adivinanza();
+		System.out.println(Adivinanza.numeroAleatorio());
 	}
 
 }
